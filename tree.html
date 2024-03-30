@@ -1,0 +1,13 @@
+<link href="index-browser-light.css" rel="stylesheet">
+<script src="d3-hypertree.js"></script>
+
+// hyt is declared by import or global variable in bundle
+const component = new hyt.Hypertree(
+    {
+        parent: document.body,
+        preserveAspectRatio: "xMidYMid meet"
+    },
+    {
+        model: hyt.loaders.fromFile('data/LDA128-ward.d3.json')
+    }
+);
