@@ -1,15 +1,17 @@
 {
-    'name':'A',
-    'children':[
-        { 'name': 'B' },
-        { 'name': 'C' },
-        { 'name': 'D' },
-        { 
-            'name': 'E',
-            'children': [
-                { 'name': 'F' },
-                { 'name': 'G' },
-            ]
+    "name": "Mammalia",
+    "numLeafs": 8615,
+    "ottId": "ott244265",
+    "children": [
+        {
+            "name": "mammal environmental sample",
+            "numLeafs": 0,
+            "ottId": "ott4943691"
         },
+        {
+            "name": "Prototheria",
+            "numLeafs": 5,
+            "ottId": "ott962395"
+        }
     ]
 }
