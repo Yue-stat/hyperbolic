@@ -12,19 +12,36 @@
     <script src="d3-hypertree.js"></script>
     </head>
     <body>
-        <script>            
+        <script>  
             const ht = new hyt.Hypertree(
-                {
-                    parent: document.body             
-                },
-                {
-                    dataloader: hyt.loaders.fromFile('test.json'),
-                    langInitBFS: (ht, n)=> n.precalc.label = n.data.name,
+                { parent: document.body },
+                { 
+                    langInitBFS: (ht, n)=> {                
+                        n.precalc.label = n.data.name                        
+                    },
+                    dataloader: ok => ok({
+                        name:'A',
+                        children:[
+                            { name: 'B' },
+                            { name: 'C' },
+                            { name: 'D' },
+                            { 
+                                name: 'E',
+                                children: [
+                                    { name: 'F' },
+                                    { name: 'G' },
+                                ]
+                            },
+                        ]
+                    }),
+                    interaction: {
+                        λbounds: [ .4, .8 ],
+                    }                 
                 }
             )
             ht.initPromise
                 .then(()=> new Promise((ok, err)=> ht.animateUp(ok, err)))            
-                .then(()=> ht.drawDetailFrame())
+                .then(()=> ht.drawDetailFrame())               
         </script>
     </body>
 </html>
