@@ -19,22 +19,32 @@
                     langInitBFS: (ht, n)=> {                
                         n.precalc.label = n.data.name                        
                     },
-                    dataloader: ok => ok({
-                        name:'A',
-                        children:[
-                            { name: 'B' },
-                            { name: 'C' },
-                            { name: 'D' },
-                            { 
-                                name: 'E',
-                                children: [
-                                    { name: 'F' },
-                                    { name: 'G' },
-                                     { name: 'H' },
-                                ]
-                            },
-                        ]
-                    })              
+                    dataloader: ok => ok({'name': '63',
+ 'children': [{'name': 'PheCode:380',
+   'children': [{'name': 'PheCode:380.1'}, {'name': 'PheCode:380.4'}]},
+  {'name': 'PheCode:381',
+   'children': [{'name': 'PheCode:381.1'},
+    {'name': 'PheCode:381.2'},
+    {'name': 'PheCode:381.3'},
+    {'name': 'PheCode:381.9'}]},
+  {'name': 'PheCode:382'},
+  {'name': 'PheCode:383'},
+  {'name': 'PheCode:384',
+   'children': [{'name': 'PheCode:384.1'}, {'name': 'PheCode:384.4'}]},
+  {'name': 'PheCode:385',
+   'children': [{'name': 'PheCode:385.3'}, {'name': 'PheCode:385.5'}]},
+  {'name': 'PheCode:386',
+   'children': [{'name': 'PheCode:386.1'},
+    {'name': 'PheCode:386.2'},
+    {'name': 'PheCode:386.3'},
+    {'name': 'PheCode:386.9'}]},
+  {'name': 'PheCode:388'},
+  {'name': 'PheCode:389',
+   'children': [{'name': 'PheCode:389.1'},
+    {'name': 'PheCode:389.2'},
+    {'name': 'PheCode:389.3'},
+    {'name': 'PheCode:389.4'},
+    {'name': 'PheCode:389.5'}]}]})              
                 }
             )
             ht.initPromise
