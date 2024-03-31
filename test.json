@@ -1,17 +1,29 @@
 {
-    "name": "Mammalia",
-    "numLeafs": 2,
-    "ottId": "ott244265",
+    "name": "Galagidae",
+    "numLeafs": 1,
+    "ottId": "ott786233",
     "children": [
         {
-            "name": "mammal environmental sample",
-            "numLeafs": 0,
-            "ottId": "ott4943691"
-        },
-        {
-            "name": "Prototheria",
-            "numLeafs": 0,
-            "ottId": "ott962395"
+            "name": "Euoticus",
+            "numLeafs": 3,
+            "ottId": "ott323066",
+            "children": [
+                {
+                    "name": "Euoticus pallidus",
+                    "numLeafs": 0,
+                    "ottId": "ott3607501"
+                },
+                {
+                    "name": "Euoticus matschiei",
+                    "numLeafs": 0,
+                    "ottId": "ott3607500"
+                },
+                {
+                    "name": "Euoticus elegantulus",
+                    "numLeafs": 0,
+                    "ottId": "ott323064"
+                }
+            ]
         }
     ]
 }
