@@ -1,0 +1,15 @@
+{
+    name:'A',
+    children:[
+        { name: 'B' },
+        { name: 'C' },
+        { name: 'D' },
+        { 
+            name: 'E',
+            children: [
+                { name: 'F' },
+                { name: 'G' },
+            ]
+        },
+    ]
+}
