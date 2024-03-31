@@ -1,27 +1,97 @@
 {
-    "name": "Galagidae",
-    "numLeafs": 1,
-    "ottId": "ott786233",
+    "name": "",
+    "numLeafs": 10,
+    "ottId": "mrcaott97009ott3607543",
     "children": [
         {
-            "name": "Euoticus",
-            "numLeafs": 3,
-            "ottId": "ott323066",
+            "name": "Prolemur",
+            "numLeafs": 1,
+            "ottId": "ott4941435",
             "children": [
                 {
-                    "name": "Euoticus pallidus",
+                    "name": "Prolemur simus",
                     "numLeafs": 0,
-                    "ottId": "ott3607501"
+                    "ottId": "ott3607543"
+                }
+            ]
+        },
+        {
+            "name": "Hapalemur",
+            "numLeafs": 9,
+            "ottId": "ott789636",
+            "children": [
+                {
+                    "name": "Hapalemur aureus",
+                    "numLeafs": 0,
+                    "ottId": "ott671260"
                 },
                 {
-                    "name": "Euoticus matschiei",
-                    "numLeafs": 0,
-                    "ottId": "ott3607500"
-                },
-                {
-                    "name": "Euoticus elegantulus",
-                    "numLeafs": 0,
-                    "ottId": "ott323064"
+                    "name": "",
+                    "numLeafs": 8,
+                    "ottId": "mrcaott97009ott311692",
+                    "children": [
+                        {
+                            "name": "Hapalemur occidentalis",
+                            "numLeafs": 0,
+                            "ottId": "ott311692"
+                        },
+                        {
+                            "name": "",
+                            "numLeafs": 7,
+                            "ottId": "mrcaott97009ott3607542",
+                            "children": [
+                                {
+                                    "name": "Hapalemur alaotrensis",
+                                    "numLeafs": 0,
+                                    "ottId": "ott3607542"
+                                },
+                                {
+                                    "name": "",
+                                    "numLeafs": 6,
+                                    "ottId": "mrcaott97009ott3607544",
+                                    "children": [
+                                        {
+                                            "name": "Hapalemur meridionalis",
+                                            "numLeafs": 0,
+                                            "ottId": "ott3607544"
+                                        },
+                                        {
+                                            "name": "Hapalemur griseus",
+                                            "numLeafs": 5,
+                                            "ottId": "ott789630",
+                                            "children": [
+                                                {
+                                                    "name": "Hapalemur griseus meridionalis",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott1094523"
+                                                },
+                                                {
+                                                    "name": "Hapalemur griseus alaotrensis",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott671257"
+                                                },
+                                                {
+                                                    "name": "Hapalemur griseus occidentalis",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott671256"
+                                                },
+                                                {
+                                                    "name": "Hapalemur griseus JF2002",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott372120"
+                                                },
+                                                {
+                                                    "name": "Hapalemur griseus griseus",
+                                                    "numLeafs": 0,
+                                                    "ottId": "ott97009"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }
