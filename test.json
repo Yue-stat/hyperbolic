@@ -1,6 +1,6 @@
 {
     "name": "Mammalia",
-    "numLeafs": 8615,
+    "numLeafs": 2,
     "ottId": "ott244265",
     "children": [
         {
@@ -10,7 +10,7 @@
         },
         {
             "name": "Prototheria",
-            "numLeafs": 5,
+            "numLeafs": 0,
             "ottId": "ott962395"
         }
     ]
